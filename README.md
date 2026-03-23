@@ -7,6 +7,16 @@ The project was built to solve a time-sensitive reporting challenge where multip
 
 ---
 
+## Dashboard Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](Financial_Dashboard_page-1.jpg)
+
+### Customer, Credit Analysis, LTV and Loan Insights
+![Customer, Credit Analysis, LTV and Loan Insights](Financial_Dashboard_page-2.jpg)
+
+---
+
 ## Problem Statement
 The business received **25+ financial data files daily** from different survey teams. These files had to be:
 
@@ -91,16 +101,6 @@ The dashboard includes 10+ financial and customer-related KPIs, such as:
 - Average Loans and Credit Cards by Age
 - Loan Type Distribution
 - LTV-based Promotional Insights
-
----
-
-## Dashboard Screenshots
-
-### Dashboard Overview
-![Dashboard Overview](Financial_Dashboard_page-1.jpg)
-
-### Customer, Credit Analysis, LTV and Loan Insights
-![Customer, Credit Analysis, LTV and Loan Insights](Financial_Dashboard_page-2.jpg)
 
 ---
 
