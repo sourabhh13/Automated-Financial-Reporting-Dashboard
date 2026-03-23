@@ -1,91 +1,123 @@
-<h1 align="center"> Automated USA Financial Data Dashboard</h1>  
+<h1 align="center">Automated Financial Reporting and Analytics Dashboard</h1>
 
-<p align="center">
-  This project delivers a <b>comprehensive automation of the US Government’s financial survey pipeline</b> using 
-  <b>Python, Power Automate, and Power BI</b>.  
-  It eliminates manual data handling by streamlining <b>file ingestion, consolidation, cleaning, and visualization</b>, 
-  enabling <b>faster, error-free, and insightful reporting</b>.
-</p>  
+## Overview
+This project is an **end-to-end financial data automation and analytics solution** designed to streamline daily financial reporting and generate actionable business insights. The system processes multiple U.S. financial datasets received daily, automates data preparation, and delivers an interactive **Power BI dashboard** for stakeholder reporting and decision-making.
 
-
+The project was built to solve a time-sensitive reporting challenge where multiple files had to be downloaded, cleaned, merged, analyzed, and shared within the same day.
 
 ---
 
-## Project Context
-- Around **25 survey files** are received daily at 3 PM via Outlook.  
-- These files need to be consolidated, cleaned, and analyzed quickly.  
-- A **Power BI dashboard** must be ready by 8 PM for stakeholders.  
+## Problem Statement
+The business received **25+ financial data files daily** from different survey teams. These files had to be:
+
+- downloaded manually
+- combined into a single dataset
+- cleaned and standardized
+- analyzed for insights
+- converted into a dashboard/report
+- shared with stakeholders before the reporting deadline
+
+This manual workflow caused:
+
+- high turnaround time
+- increased risk of human error
+- dependency on additional manpower
+- higher operational cost
+- delays affecting other business tasks
 
 ---
 
-## Challenges Before Automation
-- Manual file handling was taking **4–5 hours per day**.  
-- Frequent human errors in merging and cleaning affected accuracy.  
-- Resource pressure was building up as the workflow grew in scale.  
+## Objective
+The main objective of this project was to:
 
----
-
-## Automated Solution
-- **File ingestion:** Automated through Outlook + Power Automate.  
-- **Data processing:** Python scripts (pandas, numpy, seaborn) used for cleaning, merging, and validation.  
-- **Data enrichment:** Integrated with APIs for additional datasets.  
-- **Visualization:** Interactive Power BI dashboard with real-time updates.  
-
----
-
-## Tech Stack
-- Python (pandas, numpy, matplotlib, seaborn)  
-- Google Colab (development & collaboration)  
-- Outlook + Power Automate (file ingestion automation)  
-- Power BI (dashboard & KPI reporting)  
+- automate the daily financial data workflow
+- reduce manual reporting effort
+- improve data accuracy and consistency
+- generate KPI-based dashboards for business insights
+- support faster and better decision-making
 
 ---
 
 ## Key Features
-- End-to-end automated pipeline (from email to dashboard).  
-- **90% reduction in manual errors.**  
-- Reporting time reduced from **~5 hours to under 1 hour.**  
-- Real-time dashboards with KPIs for financial monitoring.  
+- Automated ETL pipeline for daily financial datasets
+- Processing of **25+ daily U.S. financial files**
+- Handling of **50K+ records**
+- Data cleaning and transformation
+- Power BI dashboard for financial analysis
+- KPI tracking and trend analysis
+- Customer segmentation and behavior analysis
+- Automated report distribution using **Power Automate** and **Outlook**
 
 ---
 
-## Dashboard Highlights
-- Average Annual Income, Monthly Balance, Credit Utilization.  
-- Payment Delays and Demographic Distributions.  
-- Credit Score segmentation across defined age groups.  
-- Relationship between age and credit limit.  
-- Loan type distribution and popularity tracking.  
-- Customer LTV segmentation for targeted offers.  
+## Tech Stack
+- **Google Cloud Platform (GCP)** – data pipeline and processing
+- **Power BI** – dashboarding and visualization
+- **Power Automate** – workflow automation
+- **Microsoft Outlook** – automated report distribution
+- **Excel / CSV datasets** – source data files
 
 ---
 
-## LTV Formula
-LTV = (0.3 * Avg Annual Income)
-- (0.15 * Avg Payment Delay)
-+ (0.4 * Avg Credit Score [mapped])
-+ (0.075 * Avg Amount Invested)
-+ (0.075 * Avg Monthly Balance)
+## Workflow
+### 1. Data Ingestion
+Daily financial data files are received from multiple sources.
 
+### 2. ETL Processing
+The pipeline extracts, cleans, transforms, and consolidates the datasets into a usable format.
 
-**Credit Score Mapping**  
-- Good = 3  
-- Average = 2  
-- Poor = 1  
-- Bad = 0  
+### 3. Data Analysis
+The processed data is analyzed to identify trends, customer behavior, and business insights.
+
+### 4. Dashboard Creation
+A Power BI dashboard is built to visualize KPIs and support decision-making.
+
+### 5. Report Automation
+Reports are distributed automatically to stakeholders using Power Automate and Outlook.
+
+---
+
+## Dashboard KPIs
+The dashboard includes 10+ financial and customer-related KPIs, such as:
+
+- Average Annual Income
+- Average Monthly Balance
+- Average Delay in Payment
+- Average Credit Utilization Ratio
+- Age-wise Credit Limit Changes
+- Payment Behavior by Credit Mix
+- Customer Age Distribution
+- Average Credit Inquiries by Age Group
+- Average Loans and Credit Cards by Age
+- Loan Type Distribution
+- LTV-based Promotional Insights
 
 ---
 
-## Impact
-- Reporting process is now **80% faster**.  
-- **Accuracy improved significantly** with automated validation.  
-- Freed up analyst time for deeper insights instead of manual tasks.  
-- Clearer credit and customer behaviour insights available in real time.  
+## Dashboard Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](Financial_Dashboard_page-1.jpg)
+
+### Customer, Credit Analysis, LTV and Loan Insights
+![Customer, Credit Analysis, LTV and Loan Insights](Financial_Dashboard_page-2.jpg)
 
 ---
-<h3 align="center">
-✨ This project demonstrates how <b>automation + analytics</b> can 
-<b>transform financial reporting & decision-making</b>.
-</h3>  
+
+## Business Impact
+This project delivered measurable business value by:
+
+- reducing manual reporting effort
+- improving reporting speed and consistency
+- minimizing data processing errors
+- enabling same-day delivery of reports
+- supporting data-driven financial and customer analysis
+- improving operational efficiency
+
+---
+
+## Conclusion
+The **Automated Financial Reporting and Analytics Dashboard** project demonstrates how automation and business intelligence can be combined to solve real-world reporting challenges. By integrating ETL automation, dashboard analytics, and report distribution, the project improves operational efficiency while delivering actionable financial insights.
 
 ---
 
